@@ -6,3 +6,6 @@ Updating of the repository is planned during January 2023.
 
 See also associated Kaggle dataset 
 [[AI DHC]](https://www.kaggle.com/datasets/mathieuvallee/ai-dhc)
+
+---
+See branch wip_initial_import for an overview of the codebase
