@@ -1,0 +1,11 @@
+id,bc,G_f_type,G_f_start,G_f_stop,G_f_init,G_f_final,eta_f_type,eta_f_start,eta_f_stop,eta_f_init,eta_f_final
+BoilerNoise-bc0-s0-000,0,0,0,0,0,0.0,0,0,0,0,0.0
+BoilerNoise-bc0-s2-078,0,0,0,0,0,0.0,2,180,672,0,0.095083359
+BoilerNoise-bc0-s2-024,0,0,0,0,0,0.0,1,605,672,0,0.499070829
+BoilerNoise-bc0-s2-037,0,0,0,0,0,0.0,1,61,672,0,0.018034532
+BoilerNoise-bc0-s2-075,0,0,0,0,0,0.0,2,439,672,0,0.103265368
+BoilerNoise-bc0-s2-087,0,0,0,0,0,0.0,2,563,672,0,0.12893161
+BoilerNoise-bc0-s2-060,0,0,0,0,0,0.0,1,254,672,0,0.038189514
+BoilerNoise-bc0-s2-028,0,0,0,0,0,0.0,1,334,672,0,0.755592553
+BoilerNoise-bc0-s2-079,0,0,0,0,0,0.0,1,458,672,0,0.656377609
+BoilerNoise-bc0-s2-097,0,0,0,0,0,0.0,2,163,672,0,0.83748982

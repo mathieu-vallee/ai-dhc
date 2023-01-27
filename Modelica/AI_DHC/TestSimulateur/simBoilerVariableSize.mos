@@ -1,0 +1,23 @@
+// Script to simulation boiler with variable size
+
+// Model1
+simulateExtendedModel("AI_DHC.TestSimulateur.TestBoiler_Modif_v2_LHV_noise(dmd_scale=0.1, boilerNoControl_modif(Q_nom=1e6))", stopTime=2419200, numberOfIntervals=0, outputInterval=600, method="Cvode", tolerance=1e-07, resultFile="TestBoiler_variabeSize");
+// Model2
+simulateExtendedModel("AI_DHC.TestSimulateur.TestBoiler_Modif_v2_LHV_noise(dmd_scale=0.3, boilerNoControl_modif(Q_nom=2e6))", stopTime=2419200, numberOfIntervals=0, outputInterval=600, method="Cvode", tolerance=1e-07, resultFile="TestBoiler_variabeSize");
+// Model3
+simulateExtendedModel("AI_DHC.TestSimulateur.TestBoiler_Modif_v2_LHV_noise(dmd_scale=0.4, boilerNoControl_modif(Q_nom=3e6))", stopTime=2419200, numberOfIntervals=0, outputInterval=600, method="Cvode", tolerance=1e-07, resultFile="TestBoiler_variabeSize");
+// Model4
+simulateExtendedModel("AI_DHC.TestSimulateur.TestBoiler_Modif_v2_LHV_noise(dmd_scale=0.5, boilerNoControl_modif(Q_nom=4e6))", stopTime=2419200, numberOfIntervals=0, outputInterval=600, method="Cvode", tolerance=1e-07, resultFile="TestBoiler_variabeSize");
+// Model5
+simulateExtendedModel("AI_DHC.TestSimulateur.TestBoiler_Modif_v2_LHV_noise(dmd_scale=0.7, boilerNoControl_modif(Q_nom=5e6))", stopTime=2419200, numberOfIntervals=0, outputInterval=600, method="Cvode", tolerance=1e-07, resultFile="TestBoiler_variabeSize");
+// Model6
+simulateExtendedModel("AI_DHC.TestSimulateur.TestBoiler_Modif_v2_LHV_noise(dmd_scale=1, boilerNoControl_modif(Q_nom=6e6))", stopTime=2419200, numberOfIntervals=0, outputInterval=600, method="Cvode", tolerance=1e-07, resultFile="TestBoiler_variabeSize");
+// Model7
+simulateExtendedModel("AI_DHC.TestSimulateur.TestBoiler_Modif_v2_LHV_noise(dmd_scale=1, boilerNoControl_modif(Q_nom=7e6))", stopTime=2419200, numberOfIntervals=0, outputInterval=600, method="Cvode", tolerance=1e-07, resultFile="TestBoiler_variabeSize");
+// Model8
+simulateExtendedModel("AI_DHC.TestSimulateur.TestBoiler_Modif_v2_LHV_noise(dmd_scale=1.1, boilerNoControl_modif(Q_nom=8e6))", stopTime=2419200, numberOfIntervals=0, outputInterval=600, method="Cvode", tolerance=1e-07, resultFile="TestBoiler_variabeSize");
+
+// 2022-11-22
+// Used 1 at a time with option Advanced.EnableCodeExport=true to generate 
+// dymosim executables
+

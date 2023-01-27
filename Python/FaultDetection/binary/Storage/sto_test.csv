@@ -1,0 +1,11 @@
+id,bc,kIns_f_type,kIns_f_start,kIns_f_stop,kIns_f_init,kIns_f_final
+Storage-bc0-s0-000,0,0,0,0,0,0.0
+Storage-bc0-s1-020,0,1,305,672,0,0.11
+Storage-bc0-s1-090,0,1,419,672,0,0.1
+Storage-bc0-s1-033,0,2,385,672,0,0.26
+Storage-bc0-s1-046,0,1,110,672,0,0.18
+Storage-bc0-s1-060,0,2,224,672,0,0.12
+Storage-bc0-s1-047,0,2,663,672,0,0.06
+Storage-bc0-s1-088,0,1,88,672,0,0.91
+Storage-bc0-s1-062,0,1,592,672,0,0.57
+Storage-bc0-s1-038,0,2,251,672,0,0.59

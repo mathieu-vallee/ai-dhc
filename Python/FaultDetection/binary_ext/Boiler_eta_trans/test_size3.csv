@@ -1,0 +1,11 @@
+id,bc,eta_f_type,eta_f_start,eta_f_stop,eta_f_init,eta_f_final,G_f_type,G_f_start,G_f_stop,G_f_init,G_f_final
+BoilerVarSize3-bc00-s0-000,0,0,0,0,0,0.0,0,0,0,0,0
+BoilerVarSize3-bc00-s1-088,0,1,253,672,0,0.04,0,0,0,0,0
+BoilerVarSize3-bc00-s1-085,0,1,328,672,0,0.25,0,0,0,0,0
+BoilerVarSize3-bc00-s1-037,0,2,635,672,0,0.3,0,0,0,0,0
+BoilerVarSize3-bc00-s1-059,0,2,80,672,0,0.11,0,0,0,0,0
+BoilerVarSize3-bc00-s1-041,0,1,446,672,0,0.12,0,0,0,0,0
+BoilerVarSize3-bc00-s1-052,0,2,498,672,0,0.13,0,0,0,0,0
+BoilerVarSize3-bc00-s1-009,0,2,230,672,0,0.6,0,0,0,0,0
+BoilerVarSize3-bc00-s1-068,0,2,502,672,0,0.57,0,0,0,0,0
+BoilerVarSize3-bc00-s1-036,0,2,338,672,0,0.63,0,0,0,0,0

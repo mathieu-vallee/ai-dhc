@@ -1,0 +1,3 @@
+Variable;FuelPower;ThermalPower;T_out;G;eta_tot
+Unit;W;W;K;-;-
+Modelica Variable;boilerNoControl_modif.fuelPower;boilerNoControl_modif.QflowCalculation.y;boilerNoControl_modif.T_out;boilerNoControl_modif.G_modifier.y;boilerNoControl_modif.eta_tot

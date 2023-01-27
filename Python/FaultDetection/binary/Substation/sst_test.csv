@@ -1,0 +1,11 @@
+id,bc,f1_type,f1_start,f1_stop,f1_init,f1_final
+Substation-bc0-s0-000,0,0,0,0,0,0.0
+Substation-bc0-s1-084,0,1,98,672,0,0.21
+Substation-bc0-s1-035,0,1,185,672,0,0.18
+Substation-bc0-s1-058,0,1,364,672,0,0.08
+Substation-bc0-s1-050,0,1,247,672,0,0.36
+Substation-bc0-s1-030,0,1,328,672,0,0.11
+Substation-bc0-s1-005,0,1,432,672,0,0.05
+Substation-bc0-s1-093,0,1,101,672,0,0.75
+Substation-bc0-s1-088,0,1,88,672,0,0.91
+Substation-bc0-s1-006,0,1,379,672,0,0.57

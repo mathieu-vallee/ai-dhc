@@ -1,0 +1,3 @@
+﻿openModel("lib/modelica-ibpsa/IBPSA/package.mo")
+openModel("../../../lib/AixLib_MSL4/AixLib/package.mo")
+openModel("../../../AI_DHC/package.mo")
