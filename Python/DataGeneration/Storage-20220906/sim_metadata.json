@@ -1,0 +1,162 @@
+{
+    "sample_frequency": "600s",
+    "length": 4032,
+    "variables": [
+        {
+            "Name": "Time",
+            "Unit": "s",
+            "Modelica.Name": "Time",
+            "Modelica.Unit": "s",
+            "Description": "Simulation time"
+        },
+        {
+            "Name": "ChargeSP_kW",
+            "Unit": "kW",
+            "Modelica.Name": "Charge.y",
+            "Modelica.Unit": "W",
+            "Description": "Setpoint SP for charge"
+        },
+        {
+            "Name": "DischargeSP_kW",
+            "Unit": "kW",
+            "Modelica.Name": "Discharge.y",
+            "Modelica.Unit": "W",
+            "Description": "Setpoint SP for discharge"
+        },
+        {
+            "Name": "Charge_Discharge_kW",
+            "Unit": "kW",
+            "Modelica.Name": "Storage.Pdecharge",
+            "Modelica.Unit": "W",
+            "Description": "Actual discharging power if positive, charging if negative"
+        },
+        {
+            "Name": "TempIn_degC",
+            "Unit": "degC",
+            "Modelica.Name": "Tin.T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at storage inlet"
+        },
+        {
+            "Name": "TempOut_degC",
+            "Unit": "degC",
+            "Modelica.Name": "Tout.T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at storage outlet"
+        },
+        {
+            "Name": "MFR_kg_s",
+            "Unit": "kg/s",
+            "Modelica.Name": " Source.ports[1].m_flow",
+            "Modelica.Unit": "kg/s",
+            "Description": "Charge/discharge mass flow rate"
+        },
+        {
+            "Name": "T_storage1_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[1].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 1 in storage"
+        },
+        {
+            "Name": "T_storage2_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[2].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 2 in storage"
+        },
+        {
+            "Name": "T_storage3_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[3].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 3 in storage"
+        },
+        {
+            "Name": "T_storage4_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[4].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 4 in storage"
+        },
+        {
+            "Name": "T_storage5_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[5].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 5 in storage"
+        },
+        {
+            "Name": "T_storage6_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[6].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 6 in storage"
+        },
+        {
+            "Name": "T_storage7_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[7].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 7 in storage"
+        },
+        {
+            "Name": "T_storage8_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[8].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 8 in storage"
+        },
+        {
+            "Name": "T_storage9_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[9].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 9 in storage"
+        },
+        {
+            "Name": "T_storage10_degC",
+            "Unit": "degC",
+            "Modelica.Name": " Storage.vol[10].T",
+            "Modelica.Unit": "K",
+            "Description": "Temperature at sensor 10 in storage"
+        }
+    ],
+    "variables.boundaries": [
+         {
+            "Name": "T_ext_degC",
+            "Unit": "degC",
+            "Modelica.Name": "BC_TimeTable.y[3]",
+            "Modelica.Unit": "degC",
+            "Description": ""
+        }, 
+        {
+            "Name": "P_demand_kW",
+            "Unit": "kW",
+            "Modelica.Name": "BC_TimeTable.y[6]",
+            "Modelica.Unit": "kW",
+            "Description": ""
+        },         {
+            "Name": "T_supply_degC",
+            "Unit": "degC",
+            "Modelica.Name": "BC_TimeTable.y[7]",
+            "Modelica.Unit": "degC",
+            "Description": ""
+        },  {
+            "Name": "T_return_degC",
+            "Unit": "degC",
+            "Modelica.Name": "BC_TimeTable.y[8]",
+            "Modelica.Unit": "degC",
+            "Description": ""
+        }
+    ],
+    "variables.anomalies": [
+        {
+            "Name": "anomaly",
+            "Unit": "",
+            "Modelica.Name": "n/a",
+            "Modelica.Unit": "n/a",
+            "Description": ""
+        }
+    ]
+}

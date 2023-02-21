@@ -1,0 +1,85 @@
+{
+    "sample_frequency": "300s",
+    "length": 8064,
+    "variables": [
+        {
+            "Name": "Time_s",
+            "Unit": "s",
+            "Modelica.Name": "Time",
+            "Modelica.Unit": "s",
+            "Description": ""
+        },
+        {
+            "Name": "FuelPower_kW",
+            "Unit": "kW",
+            "Modelica.Name": "boilerNoControl_modif.fuelPower",
+            "Modelica.Unit": "W",
+            "Description": ""
+        },
+        {
+            "Name": "ThermalPower_kW",
+            "Unit": "kW",
+            "Modelica.Name": "boilerNoControl_modif.QflowCalculation.y",
+            "Modelica.Unit": "W",
+            "Description": ""
+        },
+        {
+            "Name": "T_out_degC",
+            "Unit": "degC",
+            "Modelica.Name": "boilerNoControl_modif.T_out",
+            "Modelica.Unit": "K",
+            "Description": ""
+        },
+        {
+            "Name": "losses_G",
+            "Unit": "-",
+            "Modelica.Name": "boilerNoControl_modif.G_modifier.y",
+            "Modelica.Unit": "-",
+            "Description": ""
+        },
+        {
+            "Name": "eta_tot",
+            "Unit": "-",
+            "Modelica.Name": "boilerNoControl_modif.eta_tot",
+            "Modelica.Unit": "-",
+            "Description": ""
+        }
+    ],
+    "variables.boundaries": [
+        {
+           "Name": "T_ext_degC",
+           "Unit": "degC",
+           "Modelica.Name": "BC_TimeTable.y[3]",
+           "Modelica.Unit": "degC",
+           "Description": ""
+       }, 
+       {
+           "Name": "P_demand_kW",
+           "Unit": "kW",
+           "Modelica.Name": "BC_TimeTable.y[6]",
+           "Modelica.Unit": "kW",
+           "Description": ""
+       },         {
+           "Name": "T_supply_degC",
+           "Unit": "degC",
+           "Modelica.Name": "BC_TimeTable.y[7]",
+           "Modelica.Unit": "degC",
+           "Description": ""
+       },  {
+           "Name": "T_return_degC",
+           "Unit": "degC",
+           "Modelica.Name": "BC_TimeTable.y[8]",
+           "Modelica.Unit": "degC",
+           "Description": ""
+       }
+   ],
+   "variables.anomalies": [
+       {
+           "Name": "anomalies",
+           "Unit": "",
+           "Modelica.Name": "n/a",
+           "Modelica.Unit": "",
+           "Description": ""
+       }
+   ]
+}

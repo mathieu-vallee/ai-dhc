@@ -1,0 +1,99 @@
+{
+    "sample_frequency": "600s",
+    "length": 4032,
+    "variables": [
+        {
+            "Name": "Time_s",
+            "Unit": "s",
+            "Modelica.Name": "Time",
+            "Modelica.Unit": "s",
+            "Description": ""
+        },
+        {
+            "Name": "UA",
+            "Unit": "W/K",
+            "Modelica.Name": "linearNetwork.SST[1].UA",
+            "Modelica.Unit": "W/K",
+            "Description": ""
+        },
+        {
+            "Name": "POS_%",
+            "Unit": "%",
+            "Modelica.Name": "linearNetwork.SST[1].POS",
+            "Modelica.Unit": "%",
+            "Description": ""
+        },
+        {
+            "Name": "TIN_p_degC",
+            "Unit": "degC",
+            "Modelica.Name": "linearNetwork.SST[1].TIN_p",
+            "Modelica.Unit": "K",
+            "Description": ""
+        },
+        {
+            "Name": "TOUT_p_degC",
+            "Unit": "degC",
+            "Modelica.Name": "linearNetwork.SST[1].TOUT_p",
+            "Modelica.Unit": "K",
+            "Description": ""
+        },
+        {
+            "Name": "TIN_s_degC",
+            "Unit": "degC",
+            "Modelica.Name": "linearNetwork.SST[1].TIN_s",
+            "Modelica.Unit": "K",
+            "Description": ""
+        },
+        {
+            "Name": "TOUT_s_degC",
+            "Unit": "degC",
+            "Modelica.Name": "linearNetwork.SST[1].TOUT_s",
+            "Modelica.Unit": "K",
+            "Description": ""
+        },
+        {
+            "Name": "UA_mod",
+            "Unit": "-",
+            "Modelica.Name": "linearNetwork.UA_ext[1]",
+            "Modelica.Unit": "-",
+            "Description": ""
+        }
+    ],
+    "variables.boundaries": [
+        {
+            "Name": "T_ext_degC",
+            "Unit": "degC",
+            "Modelica.Name": "BC_TimeTable.y[3]",
+            "Modelica.Unit": "degC",
+            "Description": ""
+        }, 
+        {
+            "Name": "P_demand_kW",
+            "Unit": "kW",
+            "Modelica.Name": "BC_TimeTable.y[6]",
+            "Modelica.Unit": "kW",
+            "Description": ""
+        },         {
+            "Name": "T_supply_degC",
+            "Unit": "degC",
+            "Modelica.Name": "BC_TimeTable.y[7]",
+            "Modelica.Unit": "degC",
+            "Description": ""
+        },  {
+            "Name": "T_return_degC",
+            "Unit": "degC",
+            "Modelica.Name": "BC_TimeTable.y[8]",
+            "Modelica.Unit": "degC",
+            "Description": ""
+        }
+    ],
+    "variables.anomalies": [
+        {
+            "Name": "anomaly",
+            "Unit": "",
+            "Modelica.Name": "n/a",
+            "Modelica.Unit": "n/a",
+            "Description": ""
+        }
+    ]
+}
