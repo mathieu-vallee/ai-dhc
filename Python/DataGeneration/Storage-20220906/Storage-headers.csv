@@ -1,4 +1,0 @@
-Variable;Time;ChargeSP_W;DischargeSP_W;Charge_Discharge_W;TempIn_K;TempOut_K;MFR_kg_s;TempStorage1_K;TempStorage5_K;TempStorage10_K
-Unit;s;W;W;W;K;K;kg/s;K;K;K
-Modelica Variable;Time; Charge.y; Discharge.y; Storage.Pdecharge; Tin.T;     Tout.T; Source.ports[1].m_flow; Storage.vol[1].T; Storage.vol[5].T; Storage.vol[10].T
-Comment;Simulation time;Setpoint SP for charge;Setpoint SP for discharge;Actual discharging power if positive, charging if negative;Temperature at storage inlet;Temperature at storage outler;Char/discharge mass flow rate;Temperature at sensor 1 in storage;Temperature at sensor 5 in storage;Temperature at sensor 10 in storage
