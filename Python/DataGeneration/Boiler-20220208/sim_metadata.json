@@ -10,14 +10,14 @@
             "Description": ""
         },
         {
-            "Name": "FuelPower_kW",
+            "Name": "P_fuel_kW",
             "Unit": "kW",
             "Modelica.Name": "boilerNoControl_modif.fuelPower",
             "Modelica.Unit": "W",
             "Description": ""
         },
         {
-            "Name": "ThermalPower_kW",
+            "Name": "P_thermal_kW",
             "Unit": "kW",
             "Modelica.Name": "boilerNoControl_modif.QflowCalculation.y",
             "Modelica.Unit": "W",
@@ -31,14 +31,14 @@
             "Description": ""
         },
         {
-            "Name": "losses_G",
+            "Name": "G_losses",
             "Unit": "-",
             "Modelica.Name": "boilerNoControl_modif.G_modifier.y",
             "Modelica.Unit": "-",
             "Description": ""
         },
         {
-            "Name": "eta_tot",
+            "Name": "eta",
             "Unit": "-",
             "Modelica.Name": "boilerNoControl_modif.eta_tot",
             "Modelica.Unit": "-",
@@ -51,35 +51,35 @@
            "Unit": "degC",
            "Modelica.Name": "BC_TimeTable.y[3]",
            "Modelica.Unit": "degC",
-           "Description": ""
+           "Description": "External (ambiant) temperature [°C]"
        }, 
        {
            "Name": "P_demand_kW",
            "Unit": "kW",
            "Modelica.Name": "BC_TimeTable.y[6]",
            "Modelica.Unit": "kW",
-           "Description": ""
+           "Description": "Thermal power load [kW]"
        },         {
            "Name": "T_supply_degC",
            "Unit": "degC",
            "Modelica.Name": "BC_TimeTable.y[7]",
            "Modelica.Unit": "degC",
-           "Description": ""
+           "Description": "Network supply temperature [°C]"
        },  {
            "Name": "T_return_degC",
            "Unit": "degC",
            "Modelica.Name": "BC_TimeTable.y[8]",
            "Modelica.Unit": "degC",
-           "Description": ""
+           "Description": "Network return temperature [°C]"
        }
    ],
    "variables.anomalies": [
        {
-           "Name": "anomalies",
-           "Unit": "",
+           "Name": "anomaly",
+           "Unit": "[0,1]",
            "Modelica.Name": "n/a",
-           "Modelica.Unit": "",
-           "Description": ""
+           "Modelica.Unit": "n/a",
+           "Description": "Presence of a fault (0: no fault, 1: fault)"
        }
    ]
 }

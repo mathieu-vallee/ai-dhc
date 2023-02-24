@@ -7,50 +7,50 @@
             "Unit": "s",
             "Modelica.Name": "Time",
             "Modelica.Unit": "s",
-            "Description": ""
+            "Description": "Exact time of the datapoint recorded [s]"
         },
         {
             "Name": "COP",
-            "Unit": "kW",
+            "Unit": "-",
             "Modelica.Name": "COP",
-            "Modelica.Unit": "",
-            "Description": ""
+            "Modelica.Unit": "-",
+            "Description": "COP of the heat pump [-]"
         },         {
             "Name": "P_elec_kW",
             "Unit": "kW",
             "Modelica.Name": "P_elec",
             "Modelica.Unit": "W",
-            "Description": ""
+            "Description": "Electric power consumed by the heat pump [kW]"
         },         {
             "Name": "P_cond_kW",
-            "Unit": "",
+            "Unit": "kW",
             "Modelica.Name": "P_cond",
-            "Modelica.Unit": "",
-            "Description": ""
+            "Modelica.Unit": "W",
+            "Description": "Heat produced by the heat pump [kW]"
         },         {
             "Name": "T_cond_in_degC",
             "Unit": "degC",
             "Modelica.Name": "T_cond_in",
             "Modelica.Unit": "K",
-            "Description": ""
+            "Description": "Inlet temperature at the condenser [°C]"
         },         {
             "Name": "T_cond_out_degC",
             "Unit": "degC",
             "Modelica.Name": "T_cond_out",
             "Modelica.Unit": "K",
-            "Description": ""
+            "Description": "Outlet temperature at the condenser [°C]"
         },         {
             "Name": "T_eva_in_degC",
             "Unit": "degC",
             "Modelica.Name": "T_eva_in",
             "Modelica.Unit": "K",
-            "Description": ""
+            "Description": "Inlet temperature at the evaporator [°C]"
         },         {
             "Name": "T_eva_out_degC",
             "Unit": "degC",
             "Modelica.Name": "T_eva_out",
             "Modelica.Unit": "K",
-            "Description": ""
+            "Description": "Outlet temperature at the evaporator [°C]"
         }
     ],
     "variables.boundaries": [
@@ -59,33 +59,35 @@
             "Unit": "degC",
             "Modelica.Name": "BC_TimeTable.y[3]",
             "Modelica.Unit": "degC",
-            "Description": ""
+            "Description": "External (ambiant) temperature [°C]"
         }, 
         {
             "Name": "P_demand_kW",
             "Unit": "kW",
             "Modelica.Name": "BC_TimeTable.y[6]",
             "Modelica.Unit": "kW",
-            "Description": ""
+            "Description": "Thermal power load [kW]"
         },         {
             "Name": "T_supply_degC",
             "Unit": "degC",
             "Modelica.Name": "BC_TimeTable.y[7]",
             "Modelica.Unit": "degC",
-            "Description": ""
+            "Description": "Network supply temperature [°C]"
         },  {
             "Name": "T_return_degC",
             "Unit": "degC",
             "Modelica.Name": "BC_TimeTable.y[8]",
             "Modelica.Unit": "degC",
-            "Description": ""
+            "Description": "Network return temperature [°C]"
         }
     ],
     "variables.anomalies": [
         {
-            "Name": "anomalies",
-            "Unit": "",
-            "Description": ""
+            "Name": "anomaly",
+            "Unit": "[0,1]",
+            "Modelica.Name": "n/a",
+            "Modelica.Unit": "n/a",
+            "Description": "Presence of a fault (0: no fault, 1: fault)"
         }
     ]
 }

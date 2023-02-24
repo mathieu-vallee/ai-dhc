@@ -7,56 +7,56 @@
             "Unit": "s",
             "Modelica.Name": "Time",
             "Modelica.Unit": "s",
-            "Description": ""
+            "Description": "Exact time of the datapoint recorded"
         },
         {
             "Name": "UA",
             "Unit": "W/K",
             "Modelica.Name": "linearNetwork.SST[1].UA",
             "Modelica.Unit": "W/K",
-            "Description": ""
+            "Description": "Heat Exchanger thermal conductivity [W/K]"
         },
         {
             "Name": "POS_%",
             "Unit": "%",
             "Modelica.Name": "linearNetwork.SST[1].POS",
             "Modelica.Unit": "%",
-            "Description": ""
+            "Description": "Position of the control valve (0: closed, 1: fully open)"
         },
         {
             "Name": "TIN_p_degC",
             "Unit": "degC",
             "Modelica.Name": "linearNetwork.SST[1].TIN_p",
             "Modelica.Unit": "K",
-            "Description": ""
+            "Description": "Temperature at the primary inlet [°C]"
         },
         {
             "Name": "TOUT_p_degC",
             "Unit": "degC",
             "Modelica.Name": "linearNetwork.SST[1].TOUT_p",
             "Modelica.Unit": "K",
-            "Description": ""
+            "Description": "Temperature at the primary outlet [°C]"
         },
         {
             "Name": "TIN_s_degC",
             "Unit": "degC",
             "Modelica.Name": "linearNetwork.SST[1].TIN_s",
             "Modelica.Unit": "K",
-            "Description": ""
+            "Description": "Temperature at the secondary inlet [°C]"
         },
         {
             "Name": "TOUT_s_degC",
             "Unit": "degC",
             "Modelica.Name": "linearNetwork.SST[1].TOUT_s",
             "Modelica.Unit": "K",
-            "Description": ""
+            "Description": "Temperature at the secondary outlet [°C]"
         },
         {
             "Name": "UA_mod",
             "Unit": "-",
             "Modelica.Name": "linearNetwork.UA_ext[1]",
             "Modelica.Unit": "-",
-            "Description": ""
+            "Description": "Thermal conductivity modification (fouling)"
         }
     ],
     "variables.boundaries": [
@@ -65,35 +65,35 @@
             "Unit": "degC",
             "Modelica.Name": "BC_TimeTable.y[3]",
             "Modelica.Unit": "degC",
-            "Description": ""
+            "Description": "External (ambiant) temperature [°C]"
         }, 
         {
             "Name": "P_demand_kW",
             "Unit": "kW",
             "Modelica.Name": "BC_TimeTable.y[6]",
             "Modelica.Unit": "kW",
-            "Description": ""
+            "Description": "Thermal power load [kW]"
         },         {
             "Name": "T_supply_degC",
             "Unit": "degC",
             "Modelica.Name": "BC_TimeTable.y[7]",
             "Modelica.Unit": "degC",
-            "Description": ""
+            "Description": "Network supply temperature [°C]"
         },  {
             "Name": "T_return_degC",
             "Unit": "degC",
             "Modelica.Name": "BC_TimeTable.y[8]",
             "Modelica.Unit": "degC",
-            "Description": ""
+            "Description": "Network return temperature [°C]"
         }
     ],
     "variables.anomalies": [
         {
             "Name": "anomaly",
-            "Unit": "",
+            "Unit": "[0,1]",
             "Modelica.Name": "n/a",
             "Modelica.Unit": "n/a",
-            "Description": ""
+            "Description": "Presence of an anomaly (0: no fault, 1: fault)"
         }
     ]
 }
