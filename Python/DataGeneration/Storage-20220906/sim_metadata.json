@@ -7,7 +7,7 @@
             "Unit": "s",
             "Modelica.Name": "Time",
             "Modelica.Unit": "s",
-            "Description": "Exact time of the datapoint recorded [s]"
+            "Description": "Time of the recorded datapoint [s]"
         },
         {
             "Name": "P_chargeSP_kW",
@@ -54,7 +54,7 @@
         {
             "Name": "T_storage1_degC",
             "Unit": "degC",
-            "Modelica.Name": " Storage.vol[1].T",
+            "Modelica.Name": "Storage.vol[1].T",
             "Modelica.Unit": "K",
             "Description": "Temperature at sensor 1 in storage [°C]"
         },
@@ -135,7 +135,7 @@
             "Unit": "kW",
             "Modelica.Name": "BC_TimeTable.y[6]",
             "Modelica.Unit": "kW",
-            "Description": "Thermal power load [kW]"
+            "Description": "Network thermal load [kW]"
         },         {
             "Name": "T_supply_degC",
             "Unit": "degC",
@@ -156,7 +156,7 @@
             "Unit": "[0,1]",
             "Modelica.Name": "n/a",
             "Modelica.Unit": "n/a",
-            "Description": "Presence of an anomaly (0: no fault, 1: fault)"
+            "Description": "Presence of a fault (0: no fault, 1: fault)"
         }
     ]
 }

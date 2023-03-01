@@ -1,0 +1,219 @@
+{
+  "id": "mathieuvallee/ai-dhc-substation-fouling",
+  "datasetSlug": "ai-dhc-substation-fouling",
+  "ownerUser": "mathieuvallee",
+  "title": "Synthetic faults on DHC substation fouling",
+  "description": "This dataset contains data generated in the AI DHC project.\n\n***This dataset contains synthetic fault data for fouling of a DHC substation***\n\nThe IEA DHC Annex XIII project \u201cArtificial Intelligence for Failure Detection and Forecasting of Heat Production and Heat demand in District Heating Networks\u201d is developing Artificial Intelligence (AI) methods for forecasting heat demand and heat production and is evaluating algorithms for detecting faults which can be used by interested stakeholders (operators, suppliers of DHC components and manufacturers of control devices).\n\nSee https://github.com/mathieu-vallee/ai-dhc for the models and pythons scripts used to generate the dataset\n\nPlease cite this dataset as:\nVallee, M., Wissocq T., Gaoua Y., Lamaison N., Generation and Evaluation of a Synthetic Dataset to improve Fault Detection in District Heating and Cooling Systems, 2023 (under review at the Energy journal)\n\n**Disclaimer notice (IEA DHC):**\nThis project has been independently funded by the International Energy Agency Technology Collaboration Programme on District Heating and Cooling including Combined Heat and Power (IEA DHC).\n\nAny views expressed in this publication are not necessarily those of IEA DHC. \n\nIEA DHC can take no responsibility for the use of the information within this publication, nor for any errors or omissions it may contain.\n\nInformation contained herein have been compiled or arrived from sources believed to be reliable. Nevertheless, the authors or their organizations do not accept liability for any loss or damage arising from the use thereof. Using the given information is strictly your own responsibility.\n\n**Disclaimer Notice (Authors):**\n\nThis publication has been compiled with reasonable skill and care. However, neither the authors nor the DHC Contracting Parties (of the International Energy Agency Technology Collaboration Programme on District Heating & Cooling) make any representation as to the adequacy or accuracy of the information contained herein, or as to its suitability for any particular application, and accept no responsibility or liability arising out of the use of this publication. The information contained herein does not supersede the requirements given in any national codes, regulations or standards, and should not be regarded as a substitute\n\n**Copyright:**\n\nAll property rights, including copyright, are vested in IEA DHC. In particular, all parts of this publication may be reproduced, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording or otherwise only by crediting IEA DHC as the original source. Republishing of this report in another format or storing the report in a public retrieval system is prohibited unless explicitly permitted by the IEA DHC Operating Agent in writing.",
+  "isPrivate": true,
+  "keywords": [
+    "energy",
+    "binary classification",
+    "multiclass classification",
+    "sklearn",
+    "time series analysis"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0"
+    }
+  ],
+  "collaborators": [],
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource0",
+      "path": "fault_metadata.csv",
+      "profile": "tabular-data-resource",
+      "description": "This file describes the simulated experiments contained in the dataset.\n\nEach experiment is a simulation over 28 days, with a fault possibly appearing at some point in time.\n\nA fault can be of varying type (progressive or abrupt) and intensity.\n\nThe intepretation of the intensity depends on the simulation model used.",
+      "format": "CSV",
+      "encoding": "UTF-8",
+      "title": "fault_metadata.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "format": "default",
+            "title": "id",
+            "description": "Id of the experiment, which also corresponds to a CSV file"
+          },
+          {
+            "name": "bc",
+            "type": "integer",
+            "format": "default",
+            "title": "bc",
+            "description": "Id of the boundary conditions used for this experiment"
+          },
+          {
+            "name": "f1_type",
+            "type": "integer",
+            "format": "default",
+            "title": "f1_type",
+            "description": "Type of fault used in the experiment (0 : no fault, 1: progressive fault, 2 : abrupt fault)"
+          },
+          {
+            "name": "f1_start",
+            "type": "integer",
+            "format": "default",
+            "title": "f1_start",
+            "description": "Start time of the fault, in hours"
+          },
+          {
+            "name": "f1_stop",
+            "type": "integer",
+            "format": "default",
+            "description": "Stop time of the fault, in hours",
+            "title": "f1_stop"
+          },
+          {
+            "name": "f1_init",
+            "type": "number",
+            "format": "default",
+            "title": "f1_init",
+            "description": "Initial intensity of the fault, in the range [0-1]"
+          },
+          {
+            "name": "f1_final",
+            "type": "number",
+            "format": "default",
+            "description": "Final intensity of the fault, in the range [0-1]",
+            "title": "f1_final"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource1",
+      "path": "sample_sim_results.csv",
+      "title": "sample_sim_results.csv",
+      "description": "This file provides data from a simulation without fault",
+      "profile": "tabular-data-resource",
+      "format": "CSV",
+      "encoding": "UTF-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "TimeDeltaIndex",
+            "type": "integer",
+            "format": "default",
+            "description": "Regular time for each data point (every 10 minutes)"
+          },
+          {
+            "name": "Time_s",
+            "type": "integer",
+            "format": "default",
+            "description": "Exact time of the datapoint recorded"
+          },
+          {
+            "name": "UA",
+            "type": "number",
+            "format": "default",
+            "description": "Heat Exchanger thermal conductivity [W/K]"
+          },
+          {
+            "name": "POS_%",
+            "type": "number",
+            "format": "default",
+            "description": "Position of the control valve (0: closed, 1: fully open)"
+          },
+          {
+            "name": "TIN_p_degC",
+            "type": "number",
+            "format": "default",
+            "description": "Temperature at the primary inlet [°C]"
+          },
+          {
+            "name": "TOUT_p_degC",
+            "type": "number",
+            "format": "default",
+            "description": "Temperature at the primary outlet [°C]"
+          },
+          {
+            "name": "TIN_s_degC",
+            "type": "number",
+            "format": "default",
+            "description": "Temperature at the secondary inlet [°C]"
+          },
+          {
+            "name": "TOUT_s_degC",
+            "type": "number",
+            "format": "default",
+            "description": "Temperature at the secondary outlet [°C]"
+          },
+          {
+            "name": "UA_mod",
+            "type": "number",
+            "format": "default",
+            "description": "Thermal conductivity modification (fouling)"
+          },
+          {
+            "name": "T_ext_degC",
+            "type": "number",
+            "format": "default",
+            "description": "External (ambiant) temperature [°C]"
+          },
+          {
+            "name": "P_demand_kW",
+            "type": "number",
+            "format": "default",
+            "description": "Network thermal load [kW]"
+          },
+          {
+            "name": "T_supply_degC",
+            "type": "number",
+            "format": "default",
+            "description": "Network supply temperature [°C]"
+          },
+          {
+            "name": "T_return_degC",
+            "type": "number",
+            "format": "default",
+            "description": "Network return temperature [°C]"
+          },
+          {
+            "name": "anomaly",
+            "type": "integer",
+            "format": "default",
+            "description": "Presence of a fault (0: no fault, 1: fault)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource2",
+      "path": "sst_flg_test.csv",
+      "profile": "tabular-data-resource",
+      "description": "This file provides a sample test dataset for the substation fouling fault. \n\n Fields are the same as fault_metadata.csv",
+      "format": "CSV",
+      "encoding": "UTF-8",
+      "title": "sst_flg_test.csv",
+      "schema": {"fields": []}
+    },
+    {
+      "name": "resource3",
+      "path": "sst_flg_train.csv",
+      "profile": "tabular-data-resource",
+      "description": "This file provides a sample train dataset for the substation fouling fault. \n\n Fields are the same as fault_metadata.csv",
+      "format": "CSV",
+      "encoding": "UTF-8",
+      "title": "sst_flg_train.csv",
+      "schema": {"fields": []}
+    },
+    {
+      "name": "resource4",
+      "path": "sim_metadata.json",
+      "title": "sim_metadata.json",
+      "profile": "data-resource",
+      "description": "This file provides a more complete description of variables in time series, with units and mapping to Modelica variables.",
+      "format": "CSV",
+      "encoding": "UTF-8",
+      "schema": {"fields": []}
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Mathieu Vallee",
+      "role": "author"
+    }
+  ]
+}

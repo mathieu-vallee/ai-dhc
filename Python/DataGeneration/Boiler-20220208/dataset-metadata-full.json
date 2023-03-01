@@ -1,0 +1,17 @@
+{
+  "title": "Boiler efficiency drop - synthetic faults",
+  "id": "mathieuvallee/ai-dhc-boiler-eta-hls",
+  "isPrivate": true,
+  "keywords": [
+    "energy",
+    "binary classification",
+    "multiclass classification",
+    "sklearn",
+    "time series analysis"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0"
+    }
+  ]
+}

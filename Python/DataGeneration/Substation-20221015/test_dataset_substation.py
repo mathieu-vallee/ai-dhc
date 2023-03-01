@@ -24,20 +24,24 @@ def load_data(filename, count):
 
     return dm
 
+def check_headers(dm):
+    headers = dm.load_headers('sim_metadata.json')
+    for df in dm.database:
+        for i, j in zip(df.columns, headers):
+            assert(i == j)
+
 def test_load_test():
-    load_data('sst_flg_test.csv', 10)
+    dm = load_data('sst_flg_test.csv', 10)
+    check_headers(dm)
 
 def test_load_train():
-    load_data('sst_flg_train.csv', 100)
+    dm = load_data('sst_flg_train.csv', 100)
+    check_headers(dm)
 
 @pytest.mark.slow
 def test_load_all():
     dm = load_data('fault_metadata.csv', 1313)
-
-    headers = dm.load_headers()
-    for df in dm.database:
-        for i, j in zip(df.columns, headers):
-            assert(i == j)
+    check_headers(dm)
 
 
 

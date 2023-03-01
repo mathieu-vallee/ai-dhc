@@ -7,42 +7,42 @@
             "Unit": "s",
             "Modelica.Name": "Time",
             "Modelica.Unit": "s",
-            "Description": ""
+            "Description": "Time of the recorded datapoint [s]"
         },
         {
             "Name": "P_fuel_kW",
             "Unit": "kW",
             "Modelica.Name": "boilerNoControl_modif.fuelPower",
             "Modelica.Unit": "W",
-            "Description": ""
+            "Description": "Power for the fuel consumed by the boiler [kW]"
         },
         {
             "Name": "P_thermal_kW",
             "Unit": "kW",
             "Modelica.Name": "boilerNoControl_modif.QflowCalculation.y",
             "Modelica.Unit": "W",
-            "Description": ""
+            "Description": "Thermal power produced by the boiler [kW]"
         },
         {
             "Name": "T_out_degC",
             "Unit": "degC",
             "Modelica.Name": "boilerNoControl_modif.T_out",
             "Modelica.Unit": "K",
-            "Description": ""
+            "Description": "Output temperature of the boiler [°C]"
         },
         {
             "Name": "G_losses",
             "Unit": "-",
             "Modelica.Name": "boilerNoControl_modif.G_modifier.y",
             "Modelica.Unit": "-",
-            "Description": ""
+            "Description": "Additionnal thermal losses [-]"
         },
         {
             "Name": "eta",
             "Unit": "-",
             "Modelica.Name": "boilerNoControl_modif.eta_tot",
             "Modelica.Unit": "-",
-            "Description": ""
+            "Description": "Efficiency of the boiler [-]"
         }
     ],
     "variables.boundaries": [
@@ -58,7 +58,7 @@
            "Unit": "kW",
            "Modelica.Name": "BC_TimeTable.y[6]",
            "Modelica.Unit": "kW",
-           "Description": "Thermal power load [kW]"
+           "Description": "Network thermal load [kW]"
        },         {
            "Name": "T_supply_degC",
            "Unit": "degC",

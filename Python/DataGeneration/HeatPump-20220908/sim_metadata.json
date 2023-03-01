@@ -7,7 +7,7 @@
             "Unit": "s",
             "Modelica.Name": "Time",
             "Modelica.Unit": "s",
-            "Description": "Exact time of the datapoint recorded [s]"
+            "Description": "Time of the recorded datapoint [s]"
         },
         {
             "Name": "COP",
@@ -66,7 +66,7 @@
             "Unit": "kW",
             "Modelica.Name": "BC_TimeTable.y[6]",
             "Modelica.Unit": "kW",
-            "Description": "Thermal power load [kW]"
+            "Description": "Network thermal load [kW]"
         },         {
             "Name": "T_supply_degC",
             "Unit": "degC",

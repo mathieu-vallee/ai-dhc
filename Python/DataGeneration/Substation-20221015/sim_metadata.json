@@ -7,7 +7,7 @@
             "Unit": "s",
             "Modelica.Name": "Time",
             "Modelica.Unit": "s",
-            "Description": "Exact time of the datapoint recorded"
+            "Description": "Time of the recorded datapoint [s]"
         },
         {
             "Name": "UA",
@@ -72,7 +72,7 @@
             "Unit": "kW",
             "Modelica.Name": "BC_TimeTable.y[6]",
             "Modelica.Unit": "kW",
-            "Description": "Thermal power load [kW]"
+            "Description": "Network thermal load [kW]"
         },         {
             "Name": "T_supply_degC",
             "Unit": "degC",
@@ -93,7 +93,7 @@
             "Unit": "[0,1]",
             "Modelica.Name": "n/a",
             "Modelica.Unit": "n/a",
-            "Description": "Presence of an anomaly (0: no fault, 1: fault)"
+            "Description": "Presence of a fault (0: no fault, 1: fault)"
         }
     ]
 }

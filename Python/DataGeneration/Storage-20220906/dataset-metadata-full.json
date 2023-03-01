@@ -1,0 +1,29 @@
+{
+  "id": "mathieuvallee/ai-dhc-storage-insulation",
+  "datasetSlug": "ai-dhc-storage-insulation",
+  "ownerUser": "mathieuvallee",
+  "title": "Synthetic faults on DHC storage insulation fault",
+  "description": "This dataset contains data generated in the AI DHC project.\n\n***This dataset contains synthetic fault data for degradation of the insulation of a water storage tank***\n\nThe IEA DHC Annex XIII project \u201cArtificial Intelligence for Failure Detection and Forecasting of Heat Production and Heat demand in District Heating Networks\u201d is developing Artificial Intelligence (AI) methods for forecasting heat demand and heat production and is evaluating algorithms for detecting faults which can be used by interested stakeholders (operators, suppliers of DHC components and manufacturers of control devices).\n\nSee https://github.com/mathieu-vallee/ai-dhc for the models and pythons scripts used to generate the dataset\n\nPlease cite this dataset as:\nVallee, M., Wissocq T., Gaoua Y., Lamaison N., Generation and Evaluation of a Synthetic Dataset to improve Fault Detection in District Heating and Cooling Systems, 2023 (under review at the Energy journal)\n\n**Disclaimer notice (IEA DHC):**\nThis project has been independently funded by the International Energy Agency Technology Collaboration Programme on District Heating and Cooling including Combined Heat and Power (IEA DHC).\n\nAny views expressed in this publication are not necessarily those of IEA DHC. \n\nIEA DHC can take no responsibility for the use of the information within this publication, nor for any errors or omissions it may contain.\n\nInformation contained herein have been compiled or arrived from sources believed to be reliable. Nevertheless, the authors or their organizations do not accept liability for any loss or damage arising from the use thereof. Using the given information is strictly your own responsibility.\n\n**Disclaimer Notice (Authors):**\n\nThis publication has been compiled with reasonable skill and care. However, neither the authors nor the DHC Contracting Parties (of the International Energy Agency Technology Collaboration Programme on District Heating & Cooling) make any representation as to the adequacy or accuracy of the information contained herein, or as to its suitability for any particular application, and accept no responsibility or liability arising out of the use of this publication. The information contained herein does not supersede the requirements given in any national codes, regulations or standards, and should not be regarded as a substitute\n\n**Copyright:**\n\nAll property rights, including copyright, are vested in IEA DHC. In particular, all parts of this publication may be reproduced, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording or otherwise only by crediting IEA DHC as the original source. Republishing of this report in another format or storing the report in a public retrieval system is prohibited unless explicitly permitted by the IEA DHC Operating Agent in writing.",
+  "isPrivate": true,
+  "keywords": [
+    "energy",
+    "binary classification",
+    "multiclass classification",
+    "sklearn",
+    "time series analysis"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0"
+    }
+  ],
+  "collaborators": [],
+  "data": [],
+  "resources": [],
+  "contributors": [
+    {
+      "title": "Mathieu Vallee",
+      "role": "author"
+    }
+  ]
+}
